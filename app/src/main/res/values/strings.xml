@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name"> Books library </string>
+    <!--    Main Activity-->
+    <string name="TitelMainActivity">Library </string>
+
+    <!--Show Activity-->
+    <string name="TitelShowActivity">Book Details </string>
+    <string name="nameBook">Book name:</string>
+    <string name="publicationDate">Publication Date: </string>
+    <string name="bookDetails"> Book Details </string>
+    <string name="description"> Description: </string>
+    <string name="openBookURL"> Open Book URL </string>
+
+
+
+    <!--    add Activity -->
+    <string name="addNewBook">Add New Book  </string>
+    <string name="uplodeImage"> Uplode Image  </string>
+    <string name="nameAuthor">Author\'s name: </string>
+    <string name="hint_txt_nameBook">Book name..  </string>
+    <string name="hint_txt_nameAuthor">Author\'s name.. </string>
+    <string name="depatmentName">Depatment Name </string>
+    <string name="dateShow">Release Date: </string>
+    <string name="Rating">Rating: </string>
+
+    <string name="hint_txt_Description">Add a short summary of te book </string>
+    <string name="bookURL">Book URL. </string>
+    <string name="addBook">Add Book </string>
+
+
+    <!--  first Book image 1-->
+
+    <string name="nameBook1">نظرية الفستق </string>
+    <string name="nameAuthorBook1">د.فهد الأحمدي</string>
+    <string name="nameTypeBook1">التنمية البشرية وتطوير الذات   </string>
+    <string name="dateShowBook1">31/12/2019 </string>
+    <string name="RatingBook1">4.2</string>
+    <string name="URLBook1"><i> <u> noor-book.com/ra5xsy </u> </i></string>
+    <string name="DetelesBook1">نبذة عن كتاب نظرية الفستق
+كتاب نظرية الفستق هو أحد كتب التنمية البشرية وتطوير الذات، مؤلف الكتاب هو فهد عامر الأحمدي ، يتكون الكتاب من جزئيين الجزء الأول يحتوي على 338 صفحة،
+        والذي يتضمن عدد كبير من المقالات التي تتحدث كيفية تطوير الذات وتحسين طرق التفكير وزيادة الوعي لدى الأشخاص</string>
+
+
+    <!-- scanned Book image 2-->
+
+    <string name="nameBook2">شجرة الدر </string>
+    <string name="nameAuthorBook2">جُرجي زيدان</string>
+    <string name="nameTypeBook2">الروايات والقصص الأدبية</string>
+    <string name="dateShowBook2">03/03/2007 </string>
+    <string name="RatingBook2">4.3</string>
+    <string name="URLBook2"> <i> <u>noor-book.com/glh3cm</u></i> </string>
+    <string name="DetelesBook2">
+         تدخل هذه الرواية ضمن سلسلة روايات تاريخ الإسلام.
+        تتناول الرواية قصة شجرة الدر كأول امرأة تتولي الحكم في تاريخ مصر الإسلامية، حيث تتوجت ملكة على مصر بعد مقتل الملك طوران شاه آخر سلاطين الدولة الأيوبية.
+        وقد تزامن توليها للحكم مع سقوط الخلافة العباسية باجتياح التتار لبغداد التي ظلت مركزا للخلافة طيلة خمسمائة عام، وانتقال بعدها مقر الخلافة إلي مصر.
+        كما تزامنت فترة توليها الحكم مع حملة ملك فرنسا لويس التاسع الصليبية للقضاء علي مصر بوصفها أقوي دولة إسلامية في ذلك الوقت. ورغم كل هذه التحديات استطاعت شجرة الدر أن تدير شئون البلاد بكفاءة واقتدار.
+    </string>
+
+    <!--Third Book image 3-->
+
+    <string name="nameBook3">اللص والكلاب  </string>
+    <string name="nameAuthorBook3">نجيب محفوظ</string>
+    <string name="nameTypeBook3">الروايات والقصص الأدبية </string>
+    <string name="dateShowBook3">30/12/1998 </string>
+    <string name="RatingBook3">3.8</string>
+    <string name="URLBook3"><i> <u> noor-book.com/grcez9 </u></i></string>
+    <string name="DetelesBook3">
+        وصف الكتاب
+استمر الشيخ فى نجواه فقال سعيد:
+- مساء الخير يا مولاى
+فرفع الشيخ يده إلى رأسه ردا على تحيته دون أن يقطع نجواه، فقل سعيد:
+- مولاى، أنا جائع..
+فخيل إليه أنه قطع النجوى ورنا إليه من عينين غائبتين ثم أومأ بذقته إلى خوان قريب فرأى سعيد فوقه تينا وخبزا، فنهضة إليه دون تردد ثم التهمه بنهم حتى أتى عليه، ووقف ينظر إلى الشيخ بعينتن تنطقان بعدم شبعه، فسأله :
+- أليس معك نقود؟
+- بلى..
+- أذهب واشتر شيئا تأكله.
+فعاد إلى مجلسه صامتا، وجعل الشيخ يتأمله مليا، ثم سألة
+- متى يا ترى تستقر؟
+- ليس على سطح هذه الأرض ..
+- لذلك فأنت جائع رغم نقودك.
+-ليكن ..
+- أما أنا فكنت أردد شعرا عن الأحزان ولكن بقلب مبتهج..
+-أنت شيخ سعيد..
+ثم بغضب:
+- هرب الأوغاد، كيف بعد ذلك أستقر؟!
+- كم عددهم؟
+- ثلاثة..
+- طوبى لدنيا إذا لااقتصر أوغادها على ثلاثة..
+- هم كثيرون ولكن غرمائى منهم ثلاثة ..
+- إذن لم يهرب أحد..
+- لست مسئولا عن الدنيا..
+- أنت مسئول عن الدنيا والآخرة!
+ونفخ لنفاد صبره فقال الشيخ:
+- الصبر مقدس تقدس به الأشياء..
+فقال سعيد بغم:
+- بل المجرومون ينجون ويسقط الأبرياء..
+فتساءل الشيخ وهو يتنهد:
+- متى تظفر بسكون القلب تحت جريان الحكم؟
+فأجاب سعيد:
+- عندما يكون الحكم عادلا.
+- هو عادل أبدا..
+فحرك سعيد رأسه فى غيظ مغمغما:
+- هرب الأوغاد واأسفاه..
+فابتسم الشيخ ولم ينبس، فقال سعيد بنبرة جديدة يمهد بها لتغيير مجرى الحديث:
+- سأنام ووجهى إلى الجدار، لا أود أن يرانى أحد ممن يزورونك إنى ألجأ إليك فاحفظنى.
+فقال الشيخ برحمة:
+- التوكل ترك الإيواء إلا إلى الله..
+فسأله بإشفاق:
+- هل تتخلى عنى؟
+- معاذ الله..
+فتساءل فى يأس:
+- هل فى وسعك بكل ما أوتيت من فضل أن تنقذنى؟
+- أنت تنقذ نفسك إن شئت..
+فهمس سعيد لنفسه..
+- أنا أقتل الآخرين..
+ثم سأله بصوت مرتفع:
+- هل تستطيع أن تقيم ظل شئ معوج؟
+فقال الشيخ برقة:
+- أنا لا أهتم بالظلال!
+
+    </string>
+
+    <!--ford Book image 4-->
+
+    <string name="nameBook4">كتاب رسائل من القرآن </string>
+    <string name="nameAuthorBook4">ادهم شرقاوي</string>
+    <string name="nameTypeBook4">تفسير القرآن الكريم</string>
+    <string name="dateShowBook4">01/01/2021 </string>
+    <string name="RatingBook4">4.1</string>
+    <string name="URLBook4"><i><u> noor-book.com/x4aujd </u> </i></string>
+    <string name="DetelesBook4">
+        يا الله :
+إنكَ عندما قلتَ لإبراهيم عليه السلام:
+“وَأَذِّنْ فِي الناس بالحج”
+قال لكَ: ربِّ كيف أُبلّغُ الناس وصوتي لا يصلهم
+فقلتَ له: عليكَ النِّداء وعلينا البلاغ! فبلغ صوته أرجاء الأرض
+
+يا الله :
+هذا الكتاب نداء عبد ضعيف القلب ، ضعيف الصوت ،
+        ناداه حبآ لك ، ورغبة فيك ، فأكرمه بالبلاغ !
+    </string>
+
+
+    <!-- five Book image 5-->
+    <string name="nameBook5">الفقه الإسلامي  </string>
+    <string name="nameAuthorBook5">د.وهبة الزحيلى</string>
+    <string name="nameTypeBook5">الفقه الإسلامي</string>
+    <string name="dateShowBook5">29/08/2006 </string>
+    <string name="RatingBook5">4.0</string>
+    <string name="URLBook5"><i><u>noor-book.com/mq9tai</u> </i></string>
+    <string name="DetelesBook5">
+    في هذا الكتاب التأصيلي الضخم يفتتح الدكتور وهبة الزحيلي الجزء الأول بالحديث عن معنى الفقه وخصائصه ويعطينا لمحة موجزة عن فقهاء المذاهب، ويعرفنا مراتب الفقهاء وكتب الفقه وسبب اختلاف الفقهاء، ثم ينتقل بعد ذلك للحديث عن العبادات في القسم الأول من الكتاب، وهو مكون من عدة فصول، تشمل الطهارة ومعناها وأنواعها وشروطها عند المذاهب الأربعة، وكذلك يشمل النجاسات، والاستنجاء، والوضوء، والغسل، والتيمم. ثم يبدأ القسم الثاني بالحديث عن الصلاة، وكل ما يتعلق بها من تفصيلات وأحكام، ويشمل هذا القسم عدد من الفصول حول شروطها وأركانها وواجباتها ومستحباتها وما يتبعها من أذكار وغير ذلك من الأحكام التفصيلية التي يؤصلها لنا الدكتور وهبة الزحيلي.
+    </string>
+
+    <!-- six Book image 6-->
+    <string name="nameBook6"> صحيح البخاري   </string>
+    <string name="nameAuthorBook6">محمد بن إسماعيل البخاري</string>
+    <string name="nameTypeBook6">السيرة النبوية سيرة محمد صلى الله عليه وسلم   </string>
+    <string name="dateShowBook6">01/01/2018 </string>
+    <string name="RatingBook6">4.3</string>
+    <string name="URLBook6"><i><u>noor-book.com/6wsaku</u></i></string>
+    <string name="DetelesBook6">
+كتاب - الجامع المسند الصحيح المختصر من أُمور رسول الله صلى الله عليه وسلّم وسننه وأيامه - الشهير باسم - صحيح البخاري - صنفه الإمام محمد بن إسماعيل البخاري .
+هو أبرز كتب الحديث النبوي عند المسلمين من أهل السنة والجماعة.
+
+* واستغرق البخاري في تحريره ستة عشر عاماً وانتقى أحاديثه من ستمائة ألف حديث جمعها.
+* ويحتل الكتاب مكانة متقدمة عند أهل السنة حيث أنه أحد الكتب الستة التي تعتبر من أمهات مصادر الحديث، وهو أول كتاب مصنف في الحديث الصحيح المجرد كما يعتبر أصح كتاب بعد القرآن الكريم.
+* ويعتبر كتاب صحيح البخاري أحد كتب الجوامع وهي التي احتوت على جميع أبواب الحديث من العقائد والأحكام والتفسير والتاريخ والزهد والآداب وغيرها.
+ اشتهر الكتاب شهرة واسعة في حياة الإمام البخاري فروي أنه سمعه منه أكثر من سبعين ألفاً وامتدت شهرته إلى الزمن المعاصر ولاقا قبولاً واهتماماً فائقين من العلماء فألفت حوله الكتب الكثيرة من شروح ومختصرات وتعليقات ومستدركات ومستخرجات وغيرها مما يتعلّق بعلوم الحديث، حتى نقل بعض المؤرخين أن عدد شروحه لوحدها بلغ أكثر من اثنين وثمانين شرحاً.
+
+    </string>
+
+
+    <string-array name="Rating_Book">
+        <item>Select Rate</item>
+        <item>1 </item>
+        <item>1.5 </item>
+        <item>2 </item>
+        <item>2.5 </item>
+        <item>3 </item>
+        <item>3.5 </item>
+        <item>4 </item>
+        <item>4.5 </item>
+        <item>5 </item>
+    </string-array>
+
+    <string-array name="department_Book">
+        <item>Select Department</item>
+        <item>الروايات والقصص</item>
+        <item>العلوم والمعرفة </item>
+        <item>التاريخ والسير الذاتية</item>
+        <item>التنمية الذاتية</item>
+        <item>الفنون والثقافة</item>
+
+    </string-array>
+
+
+
+
+
+
+</resources>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/activity_color"
+
+    tools:context=".ActivityAddItem">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:paddingBottom="50dp"
+        android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/btn_back"
+            android:layout_width="wrap_content"
+            android:src="@drawable/baseline_arrow_back_ios_24"
+            android:layout_height="wrap_content"
+            app:tint="@color/white" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/addNewBook"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Book Cover"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <androidx.cardview.widget.CardView
+            android:layout_width="100dp"
+            app:cardCornerRadius="10dp"
+            android:layout_height="150dp">
+            <ImageView
+                android:id="@+id/book_image"
+                android:scaleType="centerCrop"
+                android:layout_width="match_parent"
+                android:padding="35dp"
+                android:src="@drawable/baseline_add_24"
+                android:layout_height="match_parent"/>
+        </androidx.cardview.widget.CardView>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_add_image"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginHorizontal="20dp"
+            android:backgroundTint="@color/button_color"
+            android:text="Uplode Image"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/nameBook"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/ed_book_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_item_design"
+            android:backgroundTint="@color/edt_color"
+            android:hint="@string/hint_txt_nameBook"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/nameAuthor"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/ed_author_name"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_item_design"
+            android:backgroundTint="@color/edt_color"
+            android:hint="@string/hint_txt_nameAuthor"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="14dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="Depatment Name"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:backgroundTint="#DDF4E7"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/edit_item_design"
+        android:layout_height="50dp">
+        <Spinner
+            android:id="@+id/spinner_dep"
+            android:layout_width="match_parent"
+            android:hint="Department Name"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="14sp"
+            android:layout_height="50dp"/>
+    </LinearLayout>
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_marginTop="20dp"
+       android:layout_height="wrap_content">
+
+       <LinearLayout
+           android:layout_width="0dp"
+           android:layout_weight="1"
+           android:layout_marginEnd="5dp"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/Rating"
+               android:textColor="@color/white" />
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:backgroundTint="#DDF4E7"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/edit_item_design"
+               android:layout_height="50dp">
+               <Spinner
+                   android:id="@+id/spinner_rate"
+                   android:layout_width="match_parent"
+                   android:hint="Department Name"
+                   android:textColor="@color/black"
+                   android:paddingHorizontal="10dp"
+                   android:textColorHint="@color/black"
+                   android:textSize="14dp"
+                   android:layout_height="50dp"/>
+
+           </LinearLayout>
+
+       </LinearLayout>
+
+       <LinearLayout
+           android:layout_width="0dp"
+           android:layout_marginStart="5dp"
+           android:layout_weight="1"
+           android:layout_height="wrap_content"
+           android:orientation="vertical">
+
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="@string/dateShow"
+               android:textColor="@color/white" />
+
+           <EditText
+               android:id="@+id/ed_date"
+               android:layout_width="match_parent"
+               android:layout_height="50dp"
+               android:layout_marginTop="10dp"
+               android:background="@drawable/edit_item_design"
+               android:backgroundTint="@color/edt_color"
+               android:hint="mm/dd/yyyy"
+               android:paddingHorizontal="10dp"
+               android:textColor="@color/black"
+               android:textSize="14dp" />
+
+       </LinearLayout>
+
+   </LinearLayout>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/description"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/ed_description"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_item_design"
+            android:backgroundTint="@color/edt_color"
+            android:gravity="start"
+            android:hint="@string/hint_txt_Description"
+            android:padding="10dp"
+            android:paddingStart="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/bookURL"
+            android:textColor="@color/white" />
+
+        <EditText
+            android:id="@+id/ed_url"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/edit_item_design"
+            android:backgroundTint="@color/edt_color"
+            android:hint="https://example.com/book-url"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="14dp" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_add_book"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/button_color"
+            android:text="@string/addBook"
+            android:textColor="@color/black" />
+
+
+    </LinearLayout>
+
+</ScrollView>

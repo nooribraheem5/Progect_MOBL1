@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".ActivityShowItemBook"
+    android:background="@color/activity_color">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:paddingBottom="50dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/btn_back"
+                android:layout_width="wrap_content"
+                android:src="@drawable/baseline_arrow_back_ios_24"
+                android:layout_height="wrap_content"
+                app:tint="@color/white" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/TitelShowActivity"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_l"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:id="@+id/image_book"
+            android:layout_width="match_parent"
+            android:src="@drawable/image1"
+            android:layout_height="120dp"/>
+        <TextView
+            android:id="@+id/tv_bookname"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:text="BookName"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/tv_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="By Eng.Noor"
+            android:textColor="#C7C7C7"
+            android:textSize="@dimen/text_size_m" />
+        <TextView
+            android:id="@+id/tv_department"
+            android:layout_width="wrap_content"
+            android:textColor="#C7C7C7"
+            android:textSize="@dimen/text_size_m"
+            android:text="Department:Gooo"
+            android:layout_height="wrap_content"/>
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/tv_rate"
+                android:layout_width="wrap_content"
+                android:textStyle="bold"
+                android:textSize="30sp"
+                android:text="4.5"
+                android:layout_gravity="center"
+                android:textColor="@color/white"
+                android:layout_height="wrap_content"/>
+            <RatingBar
+                android:id="@+id/rate_bar"
+                android:progressTint="#38e07b"
+                android:layout_width="wrap_content"
+                android:numStars="5"
+                android:stepSize="0.5"
+                android:rating="2.5"
+                android:layout_marginHorizontal="10dp"
+                android:layout_height="50dp"/>
+        </LinearLayout>
+
+
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="@string/description"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_l"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_descrition"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_s"
+            android:layout_marginTop="10dp"
+            android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+            android:layout_height="wrap_content"
+            tools:ignore="HardcodedText" />
+        <com.google.android.material.divider.MaterialDivider
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"/>
+      <LinearLayout
+          android:layout_width="match_parent"
+          android:layout_marginTop="10dp"
+          android:layout_height="wrap_content"
+          >
+
+          <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="wrap_content"
+              android:text="@string/publicationDate"
+              android:textColor="@color/white" />
+          <TextView
+              android:id="@+id/tv_pubdate"
+              android:layout_width="match_parent"
+              android:text="Publication Date"
+              android:textColor="@color/white"
+              android:textAlignment="textEnd"
+              android:layout_height="wrap_content"/>
+      </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btn_openURL"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/button_color"
+            android:text="@string/openBookURL"
+            app:cornerRadius="10dp" />
+    </LinearLayout>
+
+</ScrollView>
